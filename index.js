@@ -10,7 +10,7 @@ const app = express();
 
 await connectDB();
 const corsOption = {
-  origin: "http://localhost:5173",
+  origin: ".https://hackathon-backend-jh1fnson7-habiba-kaleems-projects.vercel.app" || "http://localhost:5173",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders:["Content-Type"]
 };
